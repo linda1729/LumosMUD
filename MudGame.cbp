@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MudGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_mingw64_compiler_ege" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MudGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_mingw64_compiler_ege" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MudGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_mingw64_compiler_ege" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/Amap.cpp" />
+		<Unit filename="src/Amap.h" />
+		<Unit filename="src/Field.cpp" />
+		<Unit filename="src/Field.h" />
+		<Unit filename="src/Fight.cpp" />
+		<Unit filename="src/Fight.h" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/Item.h" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Map.h" />
+		<Unit filename="src/Monster.cpp" />
+		<Unit filename="src/Monster.h" />
+		<Unit filename="src/MudBase.cpp" />
+		<Unit filename="src/MudBase.h" />
+		<Unit filename="src/MudGame.cpp" />
+		<Unit filename="src/MudGame.h" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Player.h" />
+		<Unit filename="src/Skill.cpp" />
+		<Unit filename="src/Skill.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

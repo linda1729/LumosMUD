@@ -1,0 +1,33 @@
+# Build outputs
+/bin/*
+!/bin/.gitkeep
+/obj/
+/build/
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.stackdump
+
+# IDE / editor cruft
+*.depend
+*.layout
+*.log
+*.suo
+*.user
+*.code-workspace
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Runtime data
+/data/players.dat
