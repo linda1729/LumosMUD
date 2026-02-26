@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg" alt="Platform">
   <img src="https://img.shields.io/badge/Type-Text--based%20MUD-green.svg" alt="Type">
 </p>
+
 ## 写在前面的话
 
 这个真的是非常古早的作品了，是大一刚刚学完C++后纯手搓的（因为那个时候AI还不好使......过得什么苦日子）。虽然每次都很嫌弃以前写的代码，但是黑历史也是历史哈哈！所以这次整理代码也把它一起上传了～
@@ -95,3 +96,4 @@
 
 ## 📄 开源协议
 本项目采用 [MIT License](LICENSE) 开源协议。
+
